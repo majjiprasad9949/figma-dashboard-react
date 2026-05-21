@@ -1,5 +1,7 @@
 # Reelax Figma Assignment
 
+A React-based checkout dashboard UI developed from the provided Figma design using component-based architecture and responsive design principles.
+
 ## Tech Stack
 - React JS
 - Tailwind CSS
@@ -10,9 +12,9 @@
 - Billing information form
 - Plan summary section
 - Wallet balance section
-- Coupon selection
-- Payment summary
-- Component-based architecture
+- Coupon selection functionality
+- Payment summary section
+- Reusable component architecture
 
 ## Folder Structure
 - components/common
