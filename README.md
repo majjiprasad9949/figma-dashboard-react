@@ -108,6 +108,13 @@ Build production:
 
 npm run build
 
+## Live Demo
+
+https://figma-dashboard-react-q4hf3hhuo-majjiprasad9949s-projects.vercel.app
+
+## GitHub Repository
+
+https://github.com/majjiprasad9949/figma-dashboard-react
 
 ## Project Structure
 
