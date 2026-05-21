@@ -1,71 +1,109 @@
-import { Bell, Search, Menu } from "lucide-react";
-
-function Header({setSidebarOpen}){
+function Header(){
 
 return(
 
-<div className="
+<div
+className="
 bg-white
-h-20
-shadow-sm
-px-6
+border-b
+border-gray-100
+
+h-16
+
+px-8
+
 flex
 items-center
 justify-between
-">
-
-<div className="flex items-center gap-4">
-
-<button
-onClick={()=>setSidebarOpen(true)}
-className="lg:hidden"
+"
 >
 
-<Menu size={24}/>
+<input
+placeholder="Find influencers to collaborate with"
+className="
+w-[420px]
+h-10
+
+px-4
+
+text-sm
+
+bg-[#F8FAFC]
+
+border
+border-gray-200
+
+rounded-lg
+
+outline-none
+
+focus:ring-1
+focus:ring-blue-200
+"
+/>
+
+<div className="flex items-center gap-3">
+
+<button
+className="
+px-4
+py-1
+
+bg-orange-100
+text-orange-500
+
+rounded-md
+text-sm
+"
+>
+
+Upgrade
 
 </button>
 
-<div className="
-hidden
-sm:flex
-items-center
-gap-3
-border
-rounded-xl
+
+<button
+className="
 px-4
 py-2
-">
 
-<Search size={18}/>
+bg-blue-600
+text-white
 
-<input
-type="text"
-placeholder="Search..."
-className="outline-none"
-/>
+rounded-lg
+text-sm
 
-</div>
-
-</div>
-
-<div className="flex items-center gap-4">
-
-<Bell
-className="
-cursor-pointer
-hover:scale-110
+hover:bg-blue-700
 transition
 "
-/>
+>
 
-<img
-src="https://i.pravatar.cc/40"
-alt=""
++ Create Campaign
+
+</button>
+
+<div
 className="
+w-10
+h-10
+
 rounded-full
-cursor-pointer
+
+bg-blue-600
+
+text-white
+
+flex
+items-center
+justify-center
+
+font-semibold
 "
-/>
+>
+
+JD
+
+</div>
 
 </div>
 
